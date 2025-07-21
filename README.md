@@ -11,7 +11,7 @@ The command will automatically be set up for you on the dashboard.
 just ctrl C+V into you attacker terminal.
 Run the following command to expose the Flask server to the internet using ngrok:
 ngrok http 5000
-this will give you a link like   https://94f81e9ffeb2.ngrok-free.app -> http://localhost:5000
+this will give you a link like   https://**********.ngrok-free.app -> http://localhost:5000
 choose the 1st one and paste it into the client.py file inplace of EXFIL_URL
 remember to enclose in the `` quotations as well
 Now run the server.py on another terminal
